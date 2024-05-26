@@ -2,7 +2,6 @@ let listaDeNumeros = [];
 let limiteDaLista = 10;
 let numeroAleatorio = gerarNumeroAleatorio();
 let contador = 1;
-
 console.log(numeroAleatorio);
 
 function exibirTexto(tag, texto) {
