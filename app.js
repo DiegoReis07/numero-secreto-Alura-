@@ -1,5 +1,5 @@
 let listaDeNumeros = [];
-let limiteDaLista = 100;
+let limiteDaLista = 10;
 let numeroAleatorio = gerarNumeroAleatorio();
 let contador = 1;
 
@@ -12,7 +12,7 @@ function exibirTexto(tag, texto) {
 
 function mensagemInicial() {
     exibirTexto('h1', 'Jogo do número secreto');
-    exibirTexto('p', 'Digite um número entre 1 e 100: ');
+    exibirTexto('p', 'Digite um número entre 1 e 10: ');
 }
 
 mensagemInicial();
